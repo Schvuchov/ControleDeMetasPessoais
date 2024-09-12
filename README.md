@@ -6,3 +6,4 @@
   - Drizzle ORM, Zod, Postgres e primeiras tabelas
   - Seed (para preencher dados)
   - Criando a funcionalidade e a rota (POST) create-goal
+  - Fastify type provider zod (plugin para validação schema body rotas)
