@@ -11,3 +11,8 @@
   - Criando a funcionalidade e rota createGoalCompletion
   - Separando rotas em plugins
   - Criando a funcionalidade e rota getWeekSummary
+  - Cors
+
+## Web
+  - Criando base
+  - Configurando BIOME e TailwindCSS
