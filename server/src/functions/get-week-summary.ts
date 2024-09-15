@@ -43,6 +43,7 @@ export async function getWeekSummary() {
           lte(goalCompletions.createdAt, lastDayOfWeek) //antes do OU no ultimo dia da semana
         )
       )
+      .orderBy(desc(goalCompletions.createdAt))
   )
 
   //
