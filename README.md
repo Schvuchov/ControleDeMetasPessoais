@@ -16,3 +16,8 @@
 ## Web
   - Criando base
   - Configurando BIOME e TailwindCSS
+  - Lucide
+  - Components
+  - página Empty
+  - Dialog create-goal
+  - página Summary
