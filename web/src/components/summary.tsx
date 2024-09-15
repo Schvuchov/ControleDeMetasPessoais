@@ -66,6 +66,10 @@ export function Summary() {
       <div className="flex flex-col gap-6">
         <h2 className="text-xl font-medium">Sua semana</h2>
 
+        {!data.goalsPerDay && (
+          <p className='text-zinc-400 text-sm leading-relaxed'>Você ainda não completou nenhuma meta essa semana.</p>
+        )}
+
         {Object.entries(data.goalsPerDay).map(([date, goals]) => {
           const weekDay = dayjs(date).format('dddd')
           const formattedDate = dayjs(date).format('D[ de ]MMMM')
